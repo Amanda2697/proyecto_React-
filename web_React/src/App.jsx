@@ -20,7 +20,7 @@ function App() {
       <Router>
 
         <div>
-          <Routes>
+          <Routes basename="/proyecto_React-">
             <Route path='/' element={<Atracciones_layout />} />
             <Route path='/cultura' element={<Seccion_cultura />} />
             <Route path="/arquitectura" element={<Seccion_arquitectura />} />
