@@ -2,6 +2,7 @@
   "name": "web-react",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/Amanda2697/proyecto_React-",
   "type": "module",
   "scripts": {
     "dev": "vite",
