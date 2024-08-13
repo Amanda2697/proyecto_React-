@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Footer1 from './componentes/footer/Footer1';
 import Header from './componentes/header/Header';
@@ -20,13 +20,13 @@ function App() {
       <Router>
 
         <div>
-          <Routes basename="/proyecto_React-">
+          <Routes>
             <Route path='/' element={<Atracciones_layout />} />
             <Route path='/cultura' element={<Seccion_cultura />} />
             <Route path="/arquitectura" element={<Seccion_arquitectura />} />
           </Routes>
         </div>
- 
+
 
 
         <Footer1 />
