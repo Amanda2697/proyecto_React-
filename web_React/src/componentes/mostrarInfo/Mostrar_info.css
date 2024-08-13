@@ -1,0 +1,44 @@
+
+.container-mostrar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 150px;
+}
+
+
+.container-mostrar h3 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+
+.btn-dato {
+    color: white;
+    background-color: rgb(5, 5, 5);
+    border: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mostrar-informacion p {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/* @Media Queries*/
+/* Contenido sm */
+
+@media(max-width:576px) {
+    .container-mostrar h3 {
+        font-size: 16px;
+    }
+}

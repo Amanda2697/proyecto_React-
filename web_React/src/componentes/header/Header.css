@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 4;
+
+}
+
+
+.logo {
+    color: white;
+    font-weight: 900;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+   margin-left: 12px;
+
+}
+
+.nav-lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 6px;
+}
+
+
+.nav-lg a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.nav-lg a:hover {
+    background-color: var(--color-secundary);
+    border-radius: 8px;
+    padding: 2px 4px;
+}
+
+
+.btn__sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.btn__sesion:hover {
+    transform: scale(1.1);
+}
+
+.sesion-btn {
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: black;
+    font-size: 34px;
+}
+
+.container_buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+}
+
+
+.container_buscar button {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    padding-left: 8px;
+    color: white;
+    font-size: 22px;
+
+}
+
+.input_buscador {
+    height: 34px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 185, 185);
+    padding-left: 6px;
+    font-size: 1.1rem;
+}
+
+
+
+.input_buscador::placeholder {
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.364);
+}
+
+
+
+/* Contenido mobile nav*/
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.menu-btn {
+    font-size: 1.5rem;
+
+}
+
+.menu-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.btn__sesion {
+    margin-right: 3rem;
+}
+
+
+
+/* @Media Queries*/
+/* Contenido md */
+
+@media(max-width:768px) {
+    .logo {
+        font-size: 32px;
+    }
+
+    .nav-lg {
+        gap: 1.2rem;
+    }
+
+    
+    .nav-lg a {
+        font-size: 16px;
+    }
+
+    .input_buscador {
+        height: 32px;
+    }
+
+    .sesion-btn {
+        font-size: 30px;
+        margin-right: 0.8rem;
+
+    }
+}
+
+
+
+
+
+/* @Media Queries*/
+/* Contenido sm */
+
+@media(max-width:576px) {
+  
+
+    .logo {
+        display: none;
+    }
+
+    .nav-lg {
+        display: none;
+
+    }
+
+    .container_buscar {
+        display: none;
+    }
+
+    .nav-lg.nav-open {
+        display: flex;
+    }
+
+    
+
+}
+
+@media(min-width:576px) {
+    .menu-btn { display: none;}
+}
+
+

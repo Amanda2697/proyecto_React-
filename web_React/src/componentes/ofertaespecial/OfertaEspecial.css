@@ -1,0 +1,31 @@
+
+.oferta-especial {
+    background-color:rgb(5, 5, 5);
+    border: 1px solid white ;
+    font-style: italic;
+    width: 500px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.oferta-especial h2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+/* @Media Queries*/
+/* Contenido sm */
+
+@media(max-width:576px) {
+    .oferta-especial {
+        width: 350px;
+    }
+    
+ .oferta-especial h2 {
+    font-size: 1em;
+}
+}

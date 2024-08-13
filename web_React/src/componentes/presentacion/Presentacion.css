@@ -1,0 +1,57 @@
+
+.div_presentacion h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.div_presentacion {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 800px; 
+    padding: 20px; 
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .div_presentacion p {
+    width: 90%;
+    margin: 0 auto; 
+    font-size: 18px;
+  }
+
+    
+/* @Media Queries*/
+/* Contenido md */
+
+@media(max-width:768px) {
+  .div_presentacion h1 {
+    font-size: 1.8rem;
+  }
+
+  .div_presentacion {
+    max-width: 600px;
+  }
+  .div_presentacion p {
+    font-size: 16px;
+  }
+
+}
+
+
+
+/* @Media Queries*/
+/* Contenido sm */
+
+@media(max-width:576px) {
+  .div_presentacion h1 {
+    font-size: 1.6rem;
+  }
+
+  .div_presentacion {
+    max-width: 450px;
+  }
+  .div_presentacion p {
+    font-size: 14px;
+  }
+}

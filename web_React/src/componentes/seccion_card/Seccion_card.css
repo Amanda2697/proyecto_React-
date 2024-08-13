@@ -1,0 +1,36 @@
+/*
+.container-seccion-card {
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.seccion-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  
+} */
+
+.container-seccion-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* @Media Queries*/
+/* Contenido sm */
+
+@media(max-width:576px) {
+  .container-seccion-card {
+    margin-left: 3rem;
+  }
+
+  .seccion-card-row {
+    margin-left: 20%;
+  } 
+  
+
+}

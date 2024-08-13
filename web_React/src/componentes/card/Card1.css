@@ -1,0 +1,64 @@
+
+
+.card1-container {
+    position: relative;
+}
+
+
+.titulodeCard{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.image1-container {
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 4rem;
+    border-radius: 10px;
+    max-width: 100%; 
+   
+}
+
+
+.image1-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px 0px #3b0128;
+   
+
+}
+
+
+.image1-container img {
+    overflow: hidden;
+    background-position: center;
+    width: 100%;
+    border-radius: 10px;
+
+} 
+
+.image1-container img:hover{
+    cursor: pointer;
+}
+
+
+
+/* @Media Queries*/
+/* Contenido sm */
+
+@media(max-width:576px) {
+
+    .card1-container {
+        width: 60%;
+        
+    }
+
+    .titulodeCard{
+        left: 50%; 
+    }
+}

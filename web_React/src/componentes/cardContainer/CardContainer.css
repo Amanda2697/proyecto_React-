@@ -1,0 +1,30 @@
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.titulo-invernal {
+    text-align: center;
+}
+
+/* @Media Queries*/
+/* Contenido md */
+
+@media(max-width:768px){
+
+    .titulo-invernal{
+        font-size: 1.6em;
+    }
+}
+
+@media(max-width:576px) {
+    .titulo-invernal {
+        font-size: 1.4em;
+    }
+}
