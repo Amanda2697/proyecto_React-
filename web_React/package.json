@@ -2,15 +2,13 @@
   "name": "web-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Amanda2697/proyecto_React-",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
