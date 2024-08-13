@@ -26,7 +26,7 @@ function App() {
             <Route path="/arquitectura" element={<Seccion_arquitectura />} />
           </Routes>
         </div>
-
+ 
 
 
         <Footer1 />
